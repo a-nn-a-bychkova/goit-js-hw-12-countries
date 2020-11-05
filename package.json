@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/a-nn-a-bychkova/goit-js-hw-12-countries/issues"
   },
-  "homepage": "https://github.com/a-nn-a-bychkova/goit-js-hw-12-countries#readme",
+  "homepage": "https://a-nn-a-bychkova.github.io/goit-js-hw-12-countries",
   "devDependencies": {
     "html-webpack-plugin": "^5.0.0-alpha.10",
     "webpack": "^5.4.0",
