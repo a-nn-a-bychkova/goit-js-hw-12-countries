@@ -1,1 +1,1 @@
-console.log('это индекс дж с');
+import './styles.css';
