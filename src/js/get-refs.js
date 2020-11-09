@@ -1,3 +1,3 @@
-export default function getRefs() {
-  return { serachForm: document.querySelector('#searchQuery') };
-}
+// export default function getRefs() {
+//   return { searchForm: document.querySelector('#searchQuery') };
+// }
