@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{OPH6:function(n,t,e){},QfWi:function(n,t,e){"use strict";e.r(t);e("OPH6"),e("JBxO"),e("FdtR");var o=function(n){return fetch("https://restcountries.eu/rest/v2/name/"+n).then((function(n){return n.json()}))};e("jffb");o("uk").then((function(n){console.log(n)}));e("jffb")}},[["QfWi",1,2]]]);
-//# sourceMappingURL=main.636d6b7a7ae88ecc7d76.js.map
