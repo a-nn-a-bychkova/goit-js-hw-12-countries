@@ -32,7 +32,7 @@ function renderCountryCard(countries) {
   console.log(countries.length);
   if (countries.length == 1) {
     console.log('we got it');
-    const markup = countryCardTpl(countries);
+    const markup = countryCardTpl(countries[0]);
     cardContainerEl.innerHTML = markup;
   } else if (countries.length > 1 && countries.length <= 10) {
     console.log('these are less than 11 countries');

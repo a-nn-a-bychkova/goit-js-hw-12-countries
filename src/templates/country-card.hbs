@@ -1,14 +1,14 @@
 <div class="card-container">
     <h2 class="card-title">{{name}}</h2>
-    <p class="card-text">Capital:{{capital}}</p>
-    <p class="card-text">Population:{{population}}</p>
+    <p class="card-text">Capital: <span class="card-data">{{capital}}</span></p>
+    <p class="card-text">Population: <span class="card-data">{{population}}</span></p>
     <p class="card-text">Languages:</p>
     <ul class="list-group">
         {{#each languages}}
-        <li class="list-group-item">{{language.name}}</li>
+        <li class="list-group-item">{{this.name}}</li>
         {{/each}}
     </ul>
     <div class="img-container">
-        <img src="{{flag}}" alt="{{flag}}">
+        <img src="{{flag}}" alt="{{flag}}" width="180">
     </div>
 </div>

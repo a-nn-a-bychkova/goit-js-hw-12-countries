@@ -19,3 +19,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.card-text {
+  font-weight: 700;
+}
+.card-data,
+.list-group {
+  font-weight: 400;
+}
