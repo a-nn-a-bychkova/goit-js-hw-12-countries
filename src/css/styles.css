@@ -20,16 +20,24 @@ img {
   height: auto;
 }
 .img-container {
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.card-container-country {
+  display: flex;
+  width: 380px;
+  border: solid gray;
+}
+.card-left {
+  padding: 10px;
+}
 .card-container {
-  display: inline-block;
+  display: block;
   width: 200;
   height: 200;
-
-  background-color: honeydew;
+  padding: 20px;
 }
 
 .card-text {
